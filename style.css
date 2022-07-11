@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kanit:wght@200;300&family=Neucha&family=Oswald:wght@300&family=Roboto+Condensed:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    display: flex;
+    background-color: rgb(68, 65, 65);
+    color: white;
+    height: 30vh;
+    justify-content: center;
+    font-size: 1.3rem;
+    align-items: center;
+    
+}
+.options nav ul li{
+    display: inline;
+    padding: 70px;
+}
+.options nav ul li a{
+    text-decoration: none;
+    color: grey;
+    cursor: pointer;
+}
+.options nav ul li a:hover{
+    text-decoration: underline;
+    color: rgb(51, 192, 192);
+}
+.options{
+    display: flex;
+    color: grey;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+.contact{
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+h2{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+}
+h1{
+    display: flex;
+    font-size: 2.2rem;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+.layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    padding: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.container img:hover{
+    border-color: #5c6266;
+    box-shadow: 0 0 8px rgba(153, 156, 153, 0.6);
+}
+.strap{
+    display: flex;
+    justify-content: center;
+}
+.contact a{
+    color: rgb(51, 192, 192);
+}
+footer{
+    height: 30vh;
+    background-color: grey;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
